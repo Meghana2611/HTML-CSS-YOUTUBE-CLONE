@@ -1,0 +1,39 @@
+.sidebar{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    top:55px;
+    background-color: white;
+    width: 72px;
+    color: black;
+    z-index: 200;
+    padding-top: 5px;
+}
+
+.sidebar-link{
+    background-color: white;
+    height: 74px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.sidebar-link:hover{
+    background-color: rgb(235, 235, 235);
+}
+ 
+/* sidebar-link space img = space tell us that the styles are applied to all the imgs in sidebarlink only*/
+
+.sidebar-link img{
+    height: 24px;
+    margin-top: 4px;
+
+}
+
+.sidebar-link div{
+    font-family: roboto,arial;
+    font-size: 10px;
+
+}

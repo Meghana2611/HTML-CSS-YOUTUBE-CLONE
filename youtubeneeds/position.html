@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Position Practice</title>
+    </head>
+    <body style="height: 3000px;
+    padding-top: 60px;
+    padding-left: 80px ;">
+
+        <!--top: specifies how far away our element is from the top of the window-->
+        
+        <div style="background-color: black;
+        color: white;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        height:50px;
+        "> Header </div>
+
+        <div style=" 
+        background-color: green;
+        color: white;
+        position: fixed;
+        top: 50px;
+        left: 0px;
+        bottom: 0px;
+        width: 72px;">Sidebar
+                <div style="position: absolute;
+                background-color: red;
+                color: white;
+                right: 10px;
+                top: 60px;">Absolute</div></div>
+
+        <div style="position: absolute;
+        background-color: red;
+        color: white;
+        right: 10px;
+        top: 60px;">Absolute</div> <!--z-index tells whether the text/item appears on the header or not. if it has higher zindex than header then it appears on header-->
+
+        
+        <div style="background-color: lightblue;
+        height: 200px;
+        width: 200px;
+        position: static;
+        ">div1</div>
+        
+        <div style="background-color: lightpink;
+        height: 200px;
+        width: 200px;"> div2</div>
+    </body>
+</html>

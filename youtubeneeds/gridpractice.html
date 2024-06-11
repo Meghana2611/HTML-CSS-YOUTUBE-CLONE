@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title> Grid Practice Exercises</title>
+    <style>
+        .grid1{
+            grid-template-columns: 200px 75px;
+            display: grid;
+        }
+        .lightblue1{
+            background-color: lightblue;
+        }
+        .lightpink1{
+            background-color: lightpink;
+        }
+
+        .grid2{
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+        }
+        .grid3{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            column-gap: 20px;
+            row-gap: 10px;
+        }
+        
+    </style>
+    </head>
+    <body>
+            <div class="grid1">
+                <div class="lightblue1">200px</div>
+                <div class="lightpink1">75px</div>
+            </div>
+
+            <br>
+
+            <div class="grid2">
+                <div class="lightblue1">col1</div>
+                <div class="lightpink1">col2</div>
+                <div class="lightblue1">col3</div>
+            </div>
+
+            <br>
+
+            <div class="grid3">
+                <div class="lightpink1">col1</div>
+                <div class="lightpink1">col2</div>
+                <div class="lightpink1">col3</div>
+                <div class="lightpink1">col4</div>
+                <div class="lightpink1">col1</div>
+                <div class="lightpink1">col2</div>
+                <div class="lightpink1">col3</div>
+                <div class="lightpink1">col4</div>
+                
+
+            </div>
+
+    </body>
+</html>
